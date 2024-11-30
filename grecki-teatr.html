@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Witryna o epoce antycznej: mitologia grecka, filozofia i historia.">
+    <title>Epoka Antyczna</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Epoka Antyczna: Mądrość Starożytnych</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Strona Główna</a></li>
+                    <li><a href="#mythology">Mitologia Grecka</a></li>
+                    <li><a href="#philosophy">Filozofia</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <h2>Witamy na stronie o epoce antycznej</h2>
+            <p>Odkryj fascynujący świat starożytnej Grecji – mitologię, filozofię i ich wpływ na współczesność. Zapraszamy do lektury!</p>
+        </section>
+
+        <section id="mythology" class="section">
+            <h2>Mitologia Grecka</h2>
+            <p>Mitologia grecka to bogaty zbiór opowieści o bogach, herosach i niezwykłych wydarzeniach, które od wieków inspirują sztukę i literaturę. Poznaj najważniejsze mity i ich znaczenie.</p>
+            <div class="mythology-grid">
+                <div class="card">
+                    <h3>Zeus</h3>
+                    <p>Władca bogów i pan piorunów. Zeus był symbolem potęgi i sprawiedliwości.</p>
+                </div>
+                <div class="card">
+                    <h3>Atena</h3>
+                    <p>Bogini mądrości i wojny. Patronka Aten, symbol inteligencji i strategii.</p>
+                </div>
+                <div class="card">
+                    <h3>Prometeusz</h3>
+                    <p>Bohater, który ukradł ogień bogom i podarował go ludziom, symbolizując bunt i postęp.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Epoka Antyczna. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+</body>
+</html>
+/* Podstawowy reset stylów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Podstawowe ustawienia ciała strony */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Nagłówek strony */
+header {
+    background-color: #444;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sekcje */
+.section {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.section p {
+    margin-bottom: 10px;
+}
+
+/* Karty w sekcji mitologii */
+.mythology-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Stopka */
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
