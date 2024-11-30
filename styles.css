@@ -104,4 +104,51 @@ footer {
 footer a {
     color: #fff;
     text-decoration: underline;
+#hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 500px; /* Maksymalna wysokość obrazka */
+    object-fit: cover; /* Dopasowuje obrazek do rozmiaru */
+}
+
+#hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    margin: 0;
+#grecki-teatr {
+    padding: 40px;
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: 20px;
+}
+
+#grecki-teatr h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#grecki-teatr h3 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+#grecki-teatr p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+}
+
 }
