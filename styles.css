@@ -147,6 +147,23 @@ footer a {
     line-height: 1.6;
     max-width: 800px;
     margin: 0 auto 20px auto;
+/* Stylizacja linku w górnej części strony */
+.btn-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-link:hover {
+    background-color: #45a049; /* Zmiana koloru przy najechaniu */
+}
+
 }
 
 }
